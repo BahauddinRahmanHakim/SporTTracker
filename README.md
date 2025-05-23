@@ -1,4 +1,11 @@
+# SporTTracker
 
+Sporttracker adalah aplikasi web untuk mengelola aktivitas olahraga. Pengguna 
+dapat melakukan registrasi, login, menambah, melihat, dan menghapus data 
+workout. 
+Frontend dibangun menggunakan HTML, CSS, dan JavaScript murni, yang 
+diintegrasikan dengan backend Laravel. Backend Laravel digunakan untuk 
+mengelola API, migrasi database, serta otorisasi JWT, basic auth, API key dan Oauth. 
 
 
 
