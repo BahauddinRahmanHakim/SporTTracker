@@ -22,4 +22,4 @@ mengelola API, migrasi database, serta otorisasi JWT, basic auth, API key dan Oa
 # Project Member
 [Bahauddin Rahman Hakim]  (GitHub : https://github.com/BahauddinRahmanHakim)
 
-[Faza Muzakki]  (GitHub : https://github.com/FazaMuzakki)
+[Faza Muzakki]            (GitHub : https://github.com/FazaMuzakki)
