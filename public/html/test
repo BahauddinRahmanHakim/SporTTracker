@@ -1,0 +1,9 @@
+<?php
+$data = json_decode(file_get_contents('php://input'), true);
+$type = $data['type'] ?? '';
+$description = $data['description'] ?? '';
+$target_value = $data['target_value'] ?? null;
+$unit = $data['unit'] ?? null;
+
+$stmt = $pdo->prepare("INSERT INTO current_goals (user_id, type, description, target_value, unit) VALUES (?, ?, ?, ?, ?)");
+$stmt->execute([$userId, $type, $description, $target_value, $unit]);
